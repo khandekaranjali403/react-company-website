@@ -1,14 +1,12 @@
 import React from "react";
+import Navbar from "./components/Navbar/Navbar";
 
-
-const App = ()=>{
+const App = () => {
   return (
     <>
-    <h1>Hello react js . we will add navbar</h1>
-    <h1>Different section</h1>
-    <h1>Mobile view</h1>
+      <Navbar />
     </>
   );
-}
+};
 
 export default App;
