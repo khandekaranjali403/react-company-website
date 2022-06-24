@@ -29,7 +29,7 @@ const About = () => {
               <div className="about-list-item">
                 <div className="about-details-icon">
                   <p>
-                    <FcSlrBackSide size={50}/>
+                    <FcSlrBackSide size={50} />
                   </p>
                 </div>
                 <div>
@@ -46,7 +46,7 @@ const About = () => {
               <div className="about-list-item">
                 <div className="about-details-icon">
                   <p>
-                    <FcWorkflow size={50}/>
+                    <FcWorkflow size={50} />
                   </p>
                 </div>
                 <div>
@@ -63,7 +63,7 @@ const About = () => {
               <div className="about-list-item">
                 <div className="about-details-icon">
                   <p>
-                    <FcShop size={50}/>
+                    <FcShop size={50} />
                   </p>
                 </div>
                 <div>
@@ -75,10 +75,6 @@ const About = () => {
                 </div>
               </div>
             </div>
-
-
-
-
           </div>
         </div>
       </div>

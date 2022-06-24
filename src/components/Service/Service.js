@@ -86,12 +86,12 @@ const Service = () => {
         {servicedata.map((item, index) => (
           <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12" key={index}>
             <div className="services">
-
-              <span className="service-number" style={{backgroundColor:colors[index]}}>
+              <span
+                className="service-number"
+                style={{ backgroundColor: colors[index] }}
+              >
                 <p>{item.id}</p>
               </span>
-
-
 
               <div className="list-of-service">
                 <p>
@@ -112,7 +112,6 @@ const Service = () => {
                   <FcOk size={20} style={{ margin: "5px" }} /> {item.service4}
                 </p>
               </div>
-              
             </div>
           </div>
         ))}
