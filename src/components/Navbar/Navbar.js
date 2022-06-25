@@ -49,7 +49,19 @@ const Navbar = () => {
             Service
           </Link>
         </li>
-        <li className="nav-item">Career</li>
+
+        <li className="nav-item">
+          <Link
+            to="career"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={100}
+          >
+            Career
+          </Link>
+        </li>
+
         <li className="nav-item">
           <Link
             to="video"
