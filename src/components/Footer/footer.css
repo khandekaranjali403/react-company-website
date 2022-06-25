@@ -8,14 +8,28 @@
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.social-icons {
+.footer-social-icons {
     display: flex;
-    color: orange;
+    justify-content: left;
+}
+.footer-social-icons p{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(232, 141, 14);
+    color: white;
+    border-radius: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
     cursor: pointer;
 }
-.social-icons p{
-    margin: 3px;
-}
+
+
+.footer-social-icons p:hover {
+    background-color: rgb(136, 9, 215);
+    cursor: pointer;
+  }
 
 .footer-item li{
     color: white;

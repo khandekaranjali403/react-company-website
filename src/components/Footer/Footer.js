@@ -3,6 +3,8 @@ import "./footer.css";
 import { FaFacebookSquare, FaInstagramSquare } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { AiFillTwitterSquare } from "react-icons/ai";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
+import { AiOutlineTwitter,AiOutlineInstagram } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -18,7 +20,22 @@ const Footer = () => {
                 The point of using Lorem Ipsum is that it has a more-or-less
                 normal distribution of letters
               </p>
-              <span className="social-icons">
+
+              <div className="footer-social-icons">
+                <p>
+                  <FaFacebookF size={25} />
+                </p>
+                <p>
+                  <FaLinkedinIn size={25} />
+                </p>
+                <p>
+                  <AiOutlineTwitter size={25} />
+                </p>
+                <p>
+                  <AiOutlineInstagram size={25} />
+                </p>
+              </div>
+              {/* <span className="footer-social-icons">
                 <p>
                   <FaFacebookSquare size={30} />
                 </p>
@@ -31,7 +48,7 @@ const Footer = () => {
                 <p>
                   <BsLinkedin size={30} />
                 </p>
-              </span>
+              </span> */}
             </div>
           </div>
 

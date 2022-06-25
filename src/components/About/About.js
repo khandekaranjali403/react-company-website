@@ -10,7 +10,7 @@ const About = () => {
       <div className="row">
         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">
           <div className="about-image">
-            <img src={about} height="400px" width="400px" alt="about_image" />
+            <img src={about}  alt="about_image" />
           </div>
         </div>
         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12">

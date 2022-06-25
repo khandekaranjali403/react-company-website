@@ -176,8 +176,9 @@ const Testimonial = () => {
       <div className="row">
         {data.slice(0, showMorePost).map((item, index) => (
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12" key={index}>
-
-            <div className={index==0  ? "marked-content-card":"content-card"}>
+            <div
+              className={index == 0 ? "marked-content-card" : "content-card"}
+            >
               <img src={item.img} alt="image" />
               <p>{item.content}</p>
               <p>
@@ -185,16 +186,15 @@ const Testimonial = () => {
               </p>
               <p>{item.position}</p>
             </div>
-
           </div>
         ))}
-
-        {showMorePost >= data.length ? null : (
-          <span className="load-more-button" onClick={loadMore}>
-            Load More
-          </span>
-        )}
       </div>
+
+      {showMorePost >= data.length ? null : (
+        <span className="load-more-button" onClick={loadMore}>
+          Load More
+        </span>
+      )}
     </div>
   );
 };
