@@ -6,6 +6,7 @@ import Service from "./components/Service/Service";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Subscription from "./components/Subscription/Subscription";
 import Footer from "./components/Footer/Footer";
+import Team from "./components/Team/Team";
 import "./App.css";
 import ScrollToTop from "react-scroll-to-top";
 
@@ -16,6 +17,7 @@ const App = () => {
       <Home />
       <About />
       <Service />
+      <Team/>
       <Testimonial />
       <Subscription />
       <Footer/>
