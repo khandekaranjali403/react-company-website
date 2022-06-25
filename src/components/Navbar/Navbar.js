@@ -27,7 +27,6 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-
         <li className="nav-item">
           <Link
             to="about"
@@ -39,7 +38,6 @@ const Navbar = () => {
             About
           </Link>
         </li>
-
         <li className="nav-item">
           <Link
             to="services"
@@ -51,17 +49,24 @@ const Navbar = () => {
             Service
           </Link>
         </li>
-
         <li className="nav-item">Career</li>
-
-        <li className="nav-item">Video</li>
+        <li className="nav-item">
+          <Link
+            to="video"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={100}
+          >
+            Video
+          </Link>
+        </li>
 
         <li className="nav-item">
           <Link to="team" spy={true} smooth={true} offset={-100} duration={100}>
             Team
           </Link>
         </li>
-
         <li className="nav-item">
           <Link
             to="testimonial"
@@ -73,11 +78,18 @@ const Navbar = () => {
             Testimonial
           </Link>
         </li>
-
-        <li className="nav-item">Feedback</li>
-
+        <li className="nav-item">
+          <Link
+            to="feedback"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={100}
+          >
+            Feedback
+          </Link>
+        </li>
         <li className="nav-item">Contact</li>
-
         <li className="nav-item">Subscription</li>
       </ul>
     </nav>
