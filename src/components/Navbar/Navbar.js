@@ -114,7 +114,6 @@ const Navbar = () => {
           </Link>
         </li>
 
-        <li className="nav-item">Subscription</li>
       </ul>
     </nav>
   );

@@ -124,7 +124,6 @@ const NavbarMobileView = ({ theme, handleChangeTheme }) => {
                 Contact
               </Link>
             </li>
-            <li className="nav-item">Subscription</li>
             <li>
               <Switch
                 onChange={handleChangeTheme}
