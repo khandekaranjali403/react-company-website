@@ -27,8 +27,9 @@ const App = () => {
   return (
     <ThemeContext.Provider value={{ theme, handleChangeTheme }}>
       <Navbar />
-      <NavbarMobileView theme={theme} handleChangeTheme={handleChangeTheme}/>
-      <Home theme={theme} handleChangeTheme={handleChangeTheme}/>
+      <NavbarMobileView theme={theme} handleChangeTheme={handleChangeTheme} />
+
+      <Home theme={theme} handleChangeTheme={handleChangeTheme} />
 
       <div className="main-theme-compo" id={theme}>
         <About />
@@ -38,7 +39,7 @@ const App = () => {
         <Team />
         <Testimonial />
         <Feedback />
-        <Contact/>
+        <Contact />
       </div>
 
       <Subscription />

@@ -4,10 +4,10 @@
     color: black;
     display: flex;
     align-items: center;
-
-
     cursor: pointer;
 }
+
+
 
 .mobile-view-header p svg{
     cursor: pointer;
