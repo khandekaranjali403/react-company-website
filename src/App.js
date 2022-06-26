@@ -11,6 +11,7 @@ import Feedback from "./components/Feedback/Feedback";
 import Video from "./components/Video/Video";
 import Career from "./components/Career/Career";
 import NavbarMobileView from "./components/Navbar/NavbarMobileView";
+import Contact from "./components/Contact/Contact";
 import "./App.css";
 import ScrollToTop from "react-scroll-to-top";
 
@@ -37,6 +38,7 @@ const App = () => {
         <Team />
         <Testimonial />
         <Feedback />
+        <Contact/>
       </div>
 
       <Subscription />
