@@ -10,6 +10,7 @@ import Team from "./components/Team/Team";
 import Feedback from "./components/Feedback/Feedback";
 import Video from "./components/Video/Video";
 import Career from "./components/Career/Career";
+import NavbarMobileView from "./components/Navbar/NavbarMobileView";
 import "./App.css";
 import ScrollToTop from "react-scroll-to-top";
 
@@ -17,6 +18,7 @@ const App = () => {
   return (
     <>
       <Navbar />
+      <NavbarMobileView/>
       <Home />
       <About />
       <Service />

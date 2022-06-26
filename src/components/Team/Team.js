@@ -2,6 +2,7 @@ import React from "react";
 import "./team.css";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineTwitter } from "react-icons/ai";
+import Fade from 'react-reveal/Fade';
 
 const Team = () => {
   const data = [
@@ -58,6 +59,7 @@ const Team = () => {
 
       <div className="row">
         {data.map((item, index) => (
+           <Fade right>
           <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
             <div className="card team-members-item">
               <img src={item.img} alt="team image" />
@@ -80,6 +82,8 @@ const Team = () => {
               </div>
             </div>
           </div>
+
+          </Fade>
         ))}
       </div>
     </div>
