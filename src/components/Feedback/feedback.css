@@ -3,6 +3,12 @@
   margin-top: 50px;
 }
 
+#dark .feedback-slider {
+  color: white;
+}
+
+
+
 .feedbck-slide{
     margin-top: 30px;
 }
@@ -17,6 +23,19 @@
   margin-bottom: 30px;
   cursor: pointer;
 }
+
+
+#dark .content-slider{
+  background-color: #38004c;
+  color: white;
+
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+
+}
+
+
 
 .content-slider:hover {
   background-color: rgb(15, 15, 249);

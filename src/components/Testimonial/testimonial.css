@@ -1,13 +1,14 @@
 .testimonial-section {
   height: auto;
 }
+#dark .testimonial-section {
+  color: white;
+}
 
 @media (max-width: 1000px) {
   .testimonial-section {
     margin-top: 25px;
   }
-
-
 }
 
 .content-card {
@@ -20,6 +21,32 @@
   -moz-box-shadow: 15px 9px 9px -2px rgba(230, 224, 224, 0.86);
   cursor: pointer;
 }
+
+
+#dark .content-card{
+  background-color: #38004c;
+  color: white;
+
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+
+}
+
+#dark .content-card:hover{
+  background-color: #38004c;
+  color: white;
+
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  border-bottom: 2px solid yellowgreen;
+
+}
+
+
+
+
 .content-card:hover {
   background-color: brown;
   color: white;
@@ -35,6 +62,20 @@
   color: white;
   margin-top: 50px;
 }
+
+
+#dark .marked-content-card{
+  background-color: #4a0a46;
+  color: white;
+
+  box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
+
+}
+
+
+
 .marked-content-card:hover {
   box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
   -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
@@ -65,7 +106,7 @@
   font-size: 20px;
 }
 
-.load-more-button{
+.load-more-button {
   background-color: #38004c;
   width: auto;
   padding: 10px;
